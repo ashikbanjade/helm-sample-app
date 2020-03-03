@@ -9,7 +9,7 @@ steps:
     stage: prepare
     type: git-clone
     repo: ${{CF_REPO_NAME}}
-    revision: master
+    revision: 'master'
     git: github    
   MyAppDockerImage:
     title: Building Docker Image
